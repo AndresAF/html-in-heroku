@@ -8,4 +8,4 @@ const path = require('path');
 app.listen(PORT, () => {
     console.log("hola")
 })
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/public2"));
